@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='natural-questions',
+    name='nq',
     version='0.1dev',
-    packages=['natural-questions'],
+    packages=['nq'],
     )
