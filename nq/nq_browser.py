@@ -34,6 +34,7 @@ import gzip
 import json
 import os
 import sys
+import importlib
 
 import wsgiref.simple_server
 
@@ -44,9 +45,6 @@ import jinja2
 import numpy as np
 import tornado.web
 import tornado.wsgi
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 FLAGS = flags.FLAGS
 
